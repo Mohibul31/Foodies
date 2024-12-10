@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+  /*Nothing*/
+}
+@media (max-width: 991px) {
+  /* custom css */
+  .text-content {
+    width: 100%;
+  }
+  /* navbar brand */
+  .navigation-wrap .navbar-brand img {
+    height: 3.8125rem;
+  }
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--whitr-color);
+  }
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+  .top-banner {
+    padding: 9.375rem 0 9.375rem;
+  }
+  /*testimonial*/
+  .testimonial-section .carousel-item{
+    min-height: 350px;
+  }
+}
+@media (max-width: 767px) {
+  /* custom css */
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+  .top-banner {
+    padding: 10.875rem 0 9.375rem;
+  }
+  /*About Story Section*/
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  /*explore foods*/
+  .explore-food {
+    padding-bottom: 70px;
+  }
+  /*testimonial section*/
+  .testimonial-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .testimonial-section .carousel-item{
+    min-height: 350px;
+  }
+  /*Newsleatter Section*/
+  .newslettar {
+    width: 75%;
+  }
+  .newslettar .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  /*Footer Section*/
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
+@media (max-width: 330px) {
+  /*Nothing*/
+}
